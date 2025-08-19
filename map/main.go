@@ -13,7 +13,14 @@ func main() {
 
 	colors["white"] = "ffffff"
 
-	delete(colors, "red")
+	//delete(colors, "red")
 
-	fmt.Println(colors)
+	//fmt.Println(colors)
+	printMap(colors)
+}
+
+func printMap(m map[string]string) {
+	for k, v := range m {
+		fmt.Println("Hex code for", k, "is", v)
+	}
 }
