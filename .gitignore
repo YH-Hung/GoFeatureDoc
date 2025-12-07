@@ -33,3 +33,5 @@ go.work.sum
 
 main
 .DS_Store
+
+*.pb.go
